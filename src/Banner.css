@@ -1,7 +1,7 @@
 .banner {
   color: white;
   object-fit: contain;
-  height: 657px;
+  height: 971px;
 }
 
 .banner__contents {
@@ -43,7 +43,7 @@
   transition: all 0.2s;
 }
 .banner__emptyHeight {
-  height: 5rem;
+  height: 24.6rem;
 }
 
 .banner__fadebottom {

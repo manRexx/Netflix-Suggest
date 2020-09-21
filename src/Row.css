@@ -23,9 +23,13 @@
 
 .row__poster:hover {
   transform: scale(1.08);
+  cursor: pointer;
 }
 .row__posterLarge {
   max-height: 250px;
+}
+.row__posterBroad {
+  max-height: 200px !important;
 }
 
 .row__posterLarge:hover {
