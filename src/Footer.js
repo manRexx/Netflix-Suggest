@@ -1,23 +1,26 @@
 import React from "react";
 import "./Footer.css";
+import { IconButton } from "@material-ui/core";
 import GitHubIcon from "@material-ui/icons/GitHub";
 
 function Footer() {
   return (
     <div className="footer">
       <div className="footer__content">
-        <div>
-          <h3>
-            This site shows Trailers of all the trending shows currently airing
-            in NETFILX
-          </h3>
+        <div className="footer__content__top">
+          <h3>Trailers of all the trending shows airing on NETFILX</h3>
         </div>
         <div>
-          <h4>mail @ : manikrawat@outlook.com</h4>
-        </div>
-        <div>
-          <GitHubIcon />
-          <h2>This site is creted by manRexx</h2>
+          <IconButton href="https://github.com/manRexx" target="_blank">
+            <GitHubIcon fontSize="large" style={{ color: "white" }} />
+          </IconButton>
+          <h4>
+            ~ created by{" "}
+            <span className="span" color="white">
+              manRexx
+            </span>{" "}
+            ~
+          </h4>
         </div>
       </div>
     </div>
