@@ -42,6 +42,15 @@
   background-color: #e6e6e6;
   transition: all 0.2s;
 }
+
+.banner__emptyHeight__one {
+  height: 5.6rem;
+}
+
+.banner__emptyHeight__two {
+  height: 2.6rem;
+}
+
 .banner__emptyHeight {
   height: 24.6rem;
 }

@@ -20,7 +20,7 @@ function Row({ title, fetchUrl, isLargeRow, isBroad }) {
     fetchData();
   }, [fetchUrl]);
 
-  console.log(movies);
+  // console.log(movies);
   //   console.table(movies);
 
   const opts = {

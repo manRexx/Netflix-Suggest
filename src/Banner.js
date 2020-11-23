@@ -34,17 +34,19 @@ function Banner() {
       <div className="banner__contents">
         {/* background image */}
         {/* title */}
+        <div className="banner__emptyHeight__one"></div>
         <h1 className="banner__title">
           {movie?.title || movie?.name || movie?.original_name}
         </h1>
 
         {/* buttom play and mylist */}
-        <div className="banner__buttons">
+        {/* <div className="banner__buttons">
           <button className="banner__button">Play</button>
           <button className="banner__button">My List</button>
-        </div>
+        </div> */}
 
         {/* description */}
+        <div className="banner__emptyHeight__two"></div>
         <h1 className="banner__description">{movie?.overview}</h1>
       </div>
       <div className="banner__emptyHeight"></div>
