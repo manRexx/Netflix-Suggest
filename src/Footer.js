@@ -8,7 +8,7 @@ function Footer() {
     <div className="footer">
       <div className="footer__content">
         <div className="footer__content__top">
-          <h3>Trailers of all the trending shows airing on NETFILX</h3>
+          <h3>Trailers of trending shows airing on NETFILX</h3>
         </div>
         <div>
           <IconButton href="https://github.com/manRexx" target="_blank">

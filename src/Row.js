@@ -20,7 +20,7 @@ function Row({ title, fetchUrl, isLargeRow, isBroad }) {
     fetchData();
   }, [fetchUrl]);
 
-  // console.log(movies);
+  console.log(movies);
   //   console.table(movies);
 
   const opts = {
@@ -36,7 +36,7 @@ function Row({ title, fetchUrl, isLargeRow, isBroad }) {
     if (tarilerUrl) {
       setTrailerUrl("");
     } else {
-      movieTrailer(movie?.name || "")
+      movieTrailer(movie?.name || movie?.title || movie?.original_name || "")
         .then((url) => {
           // https://www.youtube.com/watch?v=XtMThy8QKqU&t=10159s
           const urlParams = new URLSearchParams(new URL(url).search);
