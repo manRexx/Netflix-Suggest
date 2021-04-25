@@ -54,12 +54,12 @@ function App() {
         isLargeRow
         isBroad
       />
-      {/* <Row
+       <Row
         title="Documentaries"
         fetchUrl={requests.fetchDocumentaries}
         isLargeRow
         isBroad
-      /> */}
+      /> 
       <Footer />
     </div>
   );
